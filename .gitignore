@@ -2,6 +2,7 @@
 
 ### ide ###
 .idea
+.idea/
 
 # composer itself is not needed
 composer.phar
