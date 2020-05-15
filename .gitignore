@@ -7,3 +7,6 @@
 # composer itself is not needed
 composer.phar
 composer.lock
+
+### MacOs ###
+.DS_Store
