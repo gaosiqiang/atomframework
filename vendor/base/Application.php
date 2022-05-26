@@ -33,6 +33,7 @@ class Application
         static::$app = BaseComponent::init($config['components'], static::$app);
         //组织处理对象
         $controller = static::$app->request->getController();
+        $controller = $controller ? $controller : 'common'; //如果请求没有任何参数，默认commonController
         $controller = ucfirst($controller).'Controller';
         $controller = $this->config['controller_path'] ."\\". $controller;
         $action = static::$app->request->getAction();

@@ -12,5 +12,12 @@ use vendor\base\BaseController;
 
 class CommonController extends BaseController
 {
+    /*
+     * 默认函数
+     */
+    public function actionCommon()
+    {
+        return "Hello Atomer";
+    }
 
 }

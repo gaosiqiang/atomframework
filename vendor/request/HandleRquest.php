@@ -49,7 +49,7 @@ class HandleRquest
      */
     public function getController()
     {
-        return $this->request[0];
+        return isset($this->request[0]) ? $this->request[0] : 'common';
     }
 
     /**
@@ -58,7 +58,7 @@ class HandleRquest
      */
     public function getAction()
     {
-        return $this->request[1];
+        return isset($this->request[1]) ? $this->request[1] : 'common';
     }
 
     /**
