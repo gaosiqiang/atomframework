@@ -1,5 +1,11 @@
 # atomframework原子框架
 
+## Install
+    
+    git clone git@github.com:gaosiqiang/atomframework.git
+    cd atomframework
+    composer update
+
 ## 框架定位
 - 解决php微服务框架
 
