@@ -1,4 +1,6 @@
 ### atom ###
+/vendor/composer/
+/vendor/autoload.php
 
 ### ide ###
 .idea
